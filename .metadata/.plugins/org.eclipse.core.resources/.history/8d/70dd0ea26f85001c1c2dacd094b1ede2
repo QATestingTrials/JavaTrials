@@ -1,0 +1,9 @@
+
+public class Test {
+		
+		public static void main(String[] args) {
+			int num = 4;
+			num = 5;
+			System.out.println(num);
+		}
+}
