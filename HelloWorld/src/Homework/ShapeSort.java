@@ -58,7 +58,18 @@ public class ShapeSort {
 		public Shape(String name, int length, int width, int radius) {
 			this.name = name;
 			this.length = length;
+			setArea();
+		}
+		
+		public Shape(String name, int length, int width) {
+			this.name = name;
+			this.length = length;
 			this.width = width;
+			setArea();
+		}
+		
+		public Shape(String name, int radius) {
+			this.name = name;
 			this.radius = radius;
 			setArea();
 		}
